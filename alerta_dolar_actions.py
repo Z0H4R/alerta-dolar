@@ -16,7 +16,7 @@ Diferencias respecto a la versión de "loop infinito" (alerta_dolar.py):
 import os
 import requests
 
-UMBRAL = 915  # CLP por USD
+UMBRAL = 2000  # CLP por USD
 ESTADO_ARCHIVO = "estado.txt"
 
 TOKEN = os.environ.get("TELEGRAM_TOKEN")
